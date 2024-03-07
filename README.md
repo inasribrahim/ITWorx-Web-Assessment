@@ -1,15 +1,15 @@
-# Demoblaze Automation Framework Task - Q-Pros
+# ITWorx Automation Framework Task - 
 
 # Scenairo 
 ``` 
- As a user,
-  I want to be able to log into the DemoBlaze website,
-  So that I can browse and select products, add them to my cart, place an order, and provide my account details for purchase
-
+ As a User of the Winjigo website,
+  I aim to craft engaging courses for our platform. Through Winjigo,
+  I intend to curate comprehensive course content that will seamlessly integrate into our course sections,
+  allowing users to access valuable information easily.
 ```
 ## Running tests through testng xml
 
-    * Select the required demoblaze-testng xml -> Right click and select Run
+    * Select the required winjigo-testng xml -> Right click and select Run
 
 ## Running tests through command line  
 
