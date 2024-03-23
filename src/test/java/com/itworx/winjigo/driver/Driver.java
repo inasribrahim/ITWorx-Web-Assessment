@@ -17,7 +17,11 @@ public final class Driver {
 
         if (isNull(DriverManager.getWebDriver())){
             if(browserName.equalsIgnoreCase("chrome")){
-                DriverManager.setWebDriver(new ChromeDriver());
+                  ChromeOptions options = new ChromeOptions();
+		          options.addArguments("--headless"); // Set headless mode
+		          options.addArguments("--disable-gpu"); // Disable GPU acceleration
+		          options.addArguments("--disable-dev-shm-usage"); // Disable /dev/shm usage
+                DriverManager.setWebDriver(new ChromeDriver(options));
             }
             else if(browserName.equalsIgnoreCase("edge")){
                 EdgeOptions edgeOptions = new EdgeOptions();
